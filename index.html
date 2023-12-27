@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>color code is <span>rgba(0,0,0,1)</span></h1>
+    <button>click me!</button>
+    <script>
+      document.querySelector('button').addEventListener('click', () => {
+        const color_code = `rgba(${Math.round(
+          Math.random() * 255
+        )},${Math.round(Math.random() * 255)},${Math.round(
+          Math.random() * 255
+        )},${Math.random().toFixed(1)})`
+        document.querySelector('body').style.backgroundColor = color_code
+        document.querySelector('span').innerText = color_code
+      })
+    </script>
+  </body>
+</html>

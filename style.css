@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'gilroy';
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in;
+  flex-direction: column;
+  gap: 5px;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 2% 5%;
+  border-radius: 15px;
+  border: solid black 5px;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
