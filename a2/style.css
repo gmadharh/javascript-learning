@@ -1,2 +1,62 @@
 * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 15px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(176, 158, 153);
+}
+
+.box {
+  background-color: rgb(216, 207, 204);
+  aspect-ratio: 1;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5vh;
+  padding: 5vh;
+}
+
+.btn {
+  background-color: rgb(100, 182, 172);
+  color: whitesmoke;
+  padding: 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: x-large;
+  box-shadow: 0px 3px 10px black;
+  user-select: none;
+}
+
+.border_box {
+  background-color: rgb(134, 175, 223);
+  padding: 0.7rem;
+}
+
+.btn:active {
+  scale: 0.9;
+  background-color: rgb(99, 192, 181);
+}
+
+.quote_area {
+  color: rgb(108, 117, 126);
+  font-size: x-large;
+  line-height: 160%;
+  text-align: center;
+}
+
+.qq {
+  font-size: 3rem;
+  display: inline;
 }
