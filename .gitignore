@@ -1,0 +1,13 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore environment-specific files
+.env
+
+# Ignore IDE/Editor settings
+.vscode/
+.idea/
+
+# Ignore logs or generated files
+logs/
+dist/
